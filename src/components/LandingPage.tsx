@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Check, Star, Shield, Clock, Award, ChefHat, Heart, Sparkles } from "lucide-react";
-import heroImage from "@/assets/hero-brigadeiros.jpg";
+import newHeroImage from "@/assets/new-hero-brigadeiros.jpg";
 import ebookMockup from "@/assets/ebook-mockup.jpg";
 import brigadeiroGallery from "@/assets/brigadeiros-gallery.jpg";
 import specialFlavors from "@/assets/special-flavors.jpg";
@@ -52,7 +52,7 @@ const LandingPage = () => {
 
             <div className="mb-8">
               <img 
-                src={heroImage} 
+                src={newHeroImage} 
                 alt="Brigadeiros Gourmet Variados" 
                 className="w-full max-w-2xl mx-auto rounded-3xl shadow-2xl"
               />
