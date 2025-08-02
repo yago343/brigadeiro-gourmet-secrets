@@ -5,9 +5,9 @@ import { Badge } from "@/components/ui/badge";
 import { Check, Star, Shield, Clock, Award, ChefHat, Heart, Sparkles } from "lucide-react";
 import designImage from "@/assets/design-sem-nome-1.png";
 import ebookMockup from "@/assets/ebook-mockup.jpg";
-import brigadeiroGallery from "@/assets/brigadeiros-gallery.jpg";
 import specialFlavors from "@/assets/special-flavors.jpg";
 import chefMatheus from "@/assets/chef-matheus.jpg";
+import ImageCarousel from "@/components/ImageCarousel";
 
 const LandingPage = () => {
   return (
@@ -213,13 +213,12 @@ const LandingPage = () => {
             </Card>
           </div>
 
-          {/* Galeria Visual */}
+          {/* Galeria Visual - Carrossel */}
           <div className="mb-16">
-            <img 
-              src={brigadeiroGallery} 
-              alt="Galeria de Brigadeiros Gourmet" 
-              className="w-full rounded-3xl shadow-2xl"
-            />
+            <h3 className="font-display text-2xl md:text-3xl font-bold text-center mb-12 text-gold-elegant">
+              🧁 Galeria visual de brigadeiros
+            </h3>
+            <ImageCarousel />
           </div>
 
           {/* Conteúdo do E-book */}
