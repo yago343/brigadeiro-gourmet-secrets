@@ -51,11 +51,7 @@ const LandingPage = () => {
             </div>
 
             <div className="mb-8">
-              <img 
-                src={designImage} 
-                alt="Brigadeiros Gourmet Variados" 
-                className="w-full max-w-2xl mx-auto rounded-3xl shadow-2xl"
-              />
+              <ImageCarousel />
             </div>
 
             <Button 
@@ -213,12 +209,13 @@ const LandingPage = () => {
             </Card>
           </div>
 
-          {/* Galeria Visual - Carrossel */}
+          {/* Galeria Visual - Imagem estatica */}
           <div className="mb-16">
-            <h3 className="font-display text-2xl md:text-3xl font-bold text-center mb-12 text-gold-elegant">
-              🧁 Galeria visual de brigadeiros
-            </h3>
-            <ImageCarousel />
+            <img 
+              src={designImage} 
+              alt="Galeria de Brigadeiros Gourmet" 
+              className="w-full rounded-3xl shadow-2xl"
+            />
           </div>
 
           {/* Conteúdo do E-book */}
