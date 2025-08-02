@@ -52,6 +52,24 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Cores especiais da confeitaria
+				chocolate: {
+					rich: 'hsl(var(--chocolate-rich))',
+					DEFAULT: 'hsl(var(--card))',
+				},
+				cream: {
+					warm: 'hsl(var(--cream-warm))',
+					DEFAULT: 'hsl(var(--foreground))',
+				},
+				gold: {
+					elegant: 'hsl(var(--gold-elegant))',
+					DEFAULT: 'hsl(var(--accent))',
+				},
+				caramel: 'hsl(var(--caramel-sweet))',
+				success: {
+					sweet: 'hsl(var(--success-sweet))',
+					DEFAULT: 'hsl(var(--primary))',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

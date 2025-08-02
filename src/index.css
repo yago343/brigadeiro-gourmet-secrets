@@ -2,39 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Confeitaria Gourmet Design System - Elegant & Appetizing */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Paleta de Confeitaria Gourmet */
+    --background: 25 15% 8%; /* Chocolate escuro profundo */
+    --foreground: 42 25% 92%; /* Creme suave */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 25 20% 12%; /* Chocolate médio */
+    --card-foreground: 42 25% 92%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 25 20% 12%;
+    --popover-foreground: 42 25% 92%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 142 45% 35%; /* Verde confeitaria elegante */
+    --primary-foreground: 42 25% 92%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 32 35% 85%; /* Champagne dourado */
+    --secondary-foreground: 25 15% 8%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 25 12% 15%;
+    --muted-foreground: 42 15% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 35 45% 75%; /* Dourado suave */
+    --accent-foreground: 25 15% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 42 25% 92%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 32 25% 25%;
+    --input: 25 20% 12%;
+    --ring: 142 45% 35%;
+
+    /* Cores especiais da confeitaria */
+    --chocolate-rich: 25 30% 6%; /* Chocolate 70% */
+    --cream-warm: 42 35% 88%; /* Creme de leite */
+    --gold-elegant: 35 55% 65%; /* Ouro champagne */
+    --caramel-sweet: 32 45% 55%; /* Caramelo */
+    --success-sweet: 142 45% 35%; /* Verde menta */
+
+    /* Gradientes especiais */
+    --gradient-chocolate: linear-gradient(135deg, hsl(25 30% 6%), hsl(25 20% 12%));
+    --gradient-gold: linear-gradient(135deg, hsl(35 55% 65%), hsl(32 45% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(25 15% 8%), hsl(25 20% 12%));
+    
+    /* Sombras elegantes */
+    --shadow-warm: 0 10px 30px -5px hsl(25 30% 6% / 0.4);
+    --shadow-gold: 0 8px 25px -8px hsl(35 55% 65% / 0.3);
+    --shadow-glow: 0 0 40px hsl(142 45% 35% / 0.2);
 
     --radius: 0.5rem;
 
@@ -101,5 +118,18 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-display {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-body {
+    font-family: 'Inter', sans-serif;
   }
 }
