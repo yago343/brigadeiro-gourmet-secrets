@@ -177,25 +177,19 @@ const LandingPage = () => {
       </section>
 
       {/* [A] AÇÃO - Oferta, Garantia e Conversão */}
-      <section className="py-20 bg-gradient-to-br from-card to-background">
+      <section className="bg-gradient-to-br from-card to-background px-0 mx-0 my-0 py-[79px]">
         <div className="container mx-auto px-0">
           
           {/* Oferta Limitada */}
           <div className="text-center mb-16">
-            <Badge className="mb-8 bg-red-500 text-white font-semibold py-3 px-6 text-xl animate-pulse">
-              🎁 OFERTA LIMITADA
-            </Badge>
+            
             
             <div className="max-w-4xl mx-auto">
-              <div className="md:flex items-center justify-center gap-12 mb-8">
+              <div className="md:flex items-center justify-center gap-12 mb-8 px-[35px] py-0 mx-[12px]">
                 {/* Capa do produto - mais destacada */}
                 <div className="flex-shrink-0 mb-8 md:mb-0">
                   <div className="relative">
-                    <img 
-                      src={ebookMockup} 
-                      alt="E-book O Brigadeiro Perfeito" 
-                      className="w-64 md:w-80 mx-auto rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300" 
-                    />
+                    <img src={ebookMockup} alt="E-book O Brigadeiro Perfeito" className="w-64 md:w-80 mx-auto rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300" />
                     <div className="absolute -top-4 -right-4 bg-red-500 text-white px-3 py-1 rounded-full font-bold animate-bounce">
                       60% OFF
                     </div>
@@ -232,7 +226,7 @@ const LandingPage = () => {
                 </div>
               </div>
               
-              <Button variant="cta" size="lg" className="text-2xl px-8 py-4 rounded-full shadow-2xl w-full md:w-auto">
+              <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl w-full md:w-auto py-0 px-[6px] mx-[60px]">
                 🧁 Garantir com preço promocional!
               </Button>
             </div>
