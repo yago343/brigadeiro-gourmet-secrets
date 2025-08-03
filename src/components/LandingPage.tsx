@@ -9,6 +9,7 @@ import specialFlavors from "@/assets/special-flavors.jpg";
 import chefMatheus from "@/assets/chef-matheus.jpg";
 import ImageCarousel from "@/components/ImageCarousel";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
+import BrigadeiroFlavors from "@/components/BrigadeiroFlavors";
 import testimonial1 from "@/assets/testimonial-1.jpg";
 import whatsappIntroClass from "@/assets/whatsapp-intro-class.jpg";
 const LandingPage = () => {
@@ -148,36 +149,7 @@ const LandingPage = () => {
           </div>
 
           {/* Sabores Especiais */}
-          <div className="mb-16">
-            <h3 className="font-display text-2xl md:text-3xl font-bold text-center mb-12 text-gold-elegant">
-              🍓 Alguns sabores que você vai aprender:
-            </h3>
-            <div className="grid md:grid-cols-3 gap-8">
-              {[{
-              name: "Abóbora",
-              image: specialFlavors
-            }, {
-              name: "Mojito",
-              image: specialFlavors
-            }, {
-              name: "Tradicionais",
-              image: specialFlavors
-            }].map((flavor, index) => <Card key={index} className="overflow-hidden hover:scale-105 transition-transform duration-300">
-                  <div className="aspect-square relative">
-                    <img src={flavor.image} alt={`Brigadeiro ${flavor.name}`} className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent mx-[10px] py-0 px-[5px] my-0" />
-                    <h4 className="absolute bottom-4 left-4 text-white font-display text-xl font-bold">
-                      {flavor.name}
-                    </h4>
-                  </div>
-                </Card>)}
-            </div>
-            <div className="text-center mt-8">
-              <Button variant="cta" size="lg" className="text-lg rounded-full py-0 px-0">
-                🍬 Quero garantir meu acesso!
-              </Button>
-            </div>
-          </div>
+          <BrigadeiroFlavors />
 
           {/* Autoridade - TV Globo */}
           <div className="mb-16 text-center">
