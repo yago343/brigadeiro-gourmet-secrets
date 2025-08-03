@@ -226,7 +226,7 @@ const LandingPage = () => {
                 </div>
               </div>
               
-              <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl w-full md:w-auto py-0 px-[6px] mx-[60px]">
+              <Button variant="cta" size="lg" className="text-xl rounded-full shadow-2xl px-8 py-4">
                 🧁 Garantir com preço promocional!
               </Button>
             </div>
