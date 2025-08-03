@@ -56,7 +56,7 @@ const BrigadeiroFlavors = () => {
     image: brigadeiroMojito12
   }];
   return <div className="mb-16">
-      <h3 className="font-display text-2xl md:text-3xl font-bold text-center mb-12 text-gold-elegant px-[19px] py-0 my-[10px] mx-[25px]">
+      <h3 className="font-display text-2xl md:text-3xl font-bold text-center mb-12 text-gold-elegant px-[16px] my-[31px] py-[15px] mx-[4px]">
         🍓 Alguns sabores que você vai aprender:
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
