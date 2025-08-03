@@ -52,15 +52,13 @@ const LandingPage = () => {
               <ImageCarousel />
             </div>
 
-            <Button variant="cta" size="lg" className="text-xl px-12 py-6 rounded-full shadow-2xl hover:shadow-gold/30">
-              ✅ Sim, quero o desconto!
-            </Button>
+            
           </div>
         </div>
       </section>
 
       {/* [I] INTERESSE - Depoimentos e Benefícios */}
-      <section className="py-20 bg-card/50">
+      <section className="bg-card/50 py-0">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6 text-gold-elegant">
@@ -124,7 +122,7 @@ const LandingPage = () => {
       </section>
 
       {/* [D] DESEJO - Conteúdo, Prova Social e Autoridade */}
-      <section className="py-20 bg-background">
+      <section className="bg-background py-0">
         <div className="container mx-auto px-4">
           
           {/* Bônus Especial */}
@@ -158,7 +156,7 @@ const LandingPage = () => {
             }].map((flavor, index) => <Card key={index} className="overflow-hidden hover:scale-105 transition-transform duration-300">
                   <div className="aspect-square relative">
                     <img src={flavor.image} alt={`Brigadeiro ${flavor.name}`} className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent mx-[10px] py-0 px-[5px] my-0" />
                     <h4 className="absolute bottom-4 left-4 text-white font-display text-xl font-bold">
                       {flavor.name}
                     </h4>
@@ -166,7 +164,7 @@ const LandingPage = () => {
                 </Card>)}
             </div>
             <div className="text-center mt-8">
-              <Button variant="cta" size="lg" className="text-lg px-10 py-4 rounded-full">
+              <Button variant="cta" size="lg" className="text-lg rounded-full py-0 px-0">
                 🍬 Quero garantir meu acesso!
               </Button>
             </div>
@@ -184,7 +182,7 @@ const LandingPage = () => {
 
           {/* Conteúdo do E-book */}
           <div className="mb-16">
-            <h3 className="font-display text-2xl md:text-3xl font-bold text-center mb-12 text-gold-elegant">
+            <h3 className="font-display text-2xl md:text-3xl font-bold text-center mb-12 text-gold-elegant py-0 px-[47px]">
               📦 Conteúdo que você vai receber:
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
@@ -199,11 +197,11 @@ const LandingPage = () => {
 
       {/* [A] AÇÃO - Oferta, Garantia e Conversão */}
       <section className="py-20 bg-gradient-to-br from-card to-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-0">
           
           {/* Oferta Limitada */}
-          <div className="text-center mb-16">
-            <Badge className="mb-6 bg-red-500 text-white font-semibold px-6 py-2 text-xl animate-pulse">
+          <div className="text-center mb-16 py-0">
+            <Badge className="mb-6 bg-red-500 text-white font-semibold py-2 text-xl animate-pulse px-0">
               🎁 OFERTA LIMITADA
             </Badge>
             <div className="max-w-2xl mx-auto">
@@ -217,7 +215,7 @@ const LandingPage = () => {
                   <img src={ebookMockup} alt="E-book O Brigadeiro Perfeito" className="w-32 md:w-48 rounded-lg shadow-2xl" />
                 </div>
               </div>
-              <Button variant="cta" size="lg" className="text-2xl px-16 py-8 rounded-full shadow-2xl w-full md:w-auto">
+              <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl w-full md:w-auto my-0 px-0 py-0 mx-[29px]">
                 🧁 Garantir com preço promocional!
               </Button>
             </div>
@@ -289,7 +287,7 @@ const LandingPage = () => {
             <p className="text-xl mb-6 max-w-2xl mx-auto">
               "Fácil de entender, né? Se você não quer perder o valor promocional, é só clicar no botão abaixo!"
             </p>
-            <Button variant="cta" size="lg" className="text-2xl px-16 py-8 rounded-full shadow-2xl">
+            <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl py-0 px-0">
               🎯 Quero aproveitar o desconto agora!
             </Button>
           </div>
