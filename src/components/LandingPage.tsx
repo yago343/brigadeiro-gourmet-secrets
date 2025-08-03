@@ -181,22 +181,58 @@ const LandingPage = () => {
         <div className="container mx-auto px-0">
           
           {/* Oferta Limitada */}
-          <div className="text-center mb-16 py-0">
-            <Badge className="mb-6 bg-red-500 text-white font-semibold py-2 text-xl animate-pulse px-0">
+          <div className="text-center mb-16">
+            <Badge className="mb-8 bg-red-500 text-white font-semibold py-3 px-6 text-xl animate-pulse">
               🎁 OFERTA LIMITADA
             </Badge>
-            <div className="max-w-2xl mx-auto">
-              <div className="flex items-center justify-center gap-4 mb-6">
-                <div className="text-center">
-                  <p className="text-lg text-muted-foreground line-through">De: R$97,00</p>
-                  <p className="text-4xl md:text-6xl font-bold text-success-sweet">R$37,00</p>
-                  <Badge className="bg-gold-elegant text-chocolate-rich font-bold">60% OFF</Badge>
+            
+            <div className="max-w-4xl mx-auto">
+              <div className="md:flex items-center justify-center gap-12 mb-8">
+                {/* Capa do produto - mais destacada */}
+                <div className="flex-shrink-0 mb-8 md:mb-0">
+                  <div className="relative">
+                    <img 
+                      src={ebookMockup} 
+                      alt="E-book O Brigadeiro Perfeito" 
+                      className="w-64 md:w-80 mx-auto rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300" 
+                    />
+                    <div className="absolute -top-4 -right-4 bg-red-500 text-white px-3 py-1 rounded-full font-bold animate-bounce">
+                      60% OFF
+                    </div>
+                  </div>
                 </div>
-                <div className="flex-shrink-0">
-                  <img src={ebookMockup} alt="E-book O Brigadeiro Perfeito" className="w-32 md:w-48 rounded-lg shadow-2xl" />
+                
+                {/* Informações de preço */}
+                <div className="text-center md:text-left">
+                  <h3 className="font-display text-2xl md:text-3xl font-bold mb-4 text-gold-elegant">
+                    E-book O Brigadeiro Perfeito
+                  </h3>
+                  <div className="mb-6">
+                    <p className="text-xl text-muted-foreground line-through mb-2">De: R$97,00</p>
+                    <p className="text-5xl md:text-7xl font-bold text-success-sweet mb-2">R$37,00</p>
+                    <Badge className="bg-gold-elegant text-chocolate-rich font-bold text-lg px-4 py-2">
+                      ECONOMIA DE R$60,00
+                    </Badge>
+                  </div>
+                  
+                  <div className="space-y-3 mb-6 text-left">
+                    <div className="flex items-center gap-2">
+                      <Check className="w-5 h-5 text-success-sweet" />
+                      <span>+70 receitas testadas</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Check className="w-5 h-5 text-success-sweet" />
+                      <span>Videoaula introdutória</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Check className="w-5 h-5 text-success-sweet" />
+                      <span>Precificação completa</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl w-full md:w-auto my-0 px-0 py-0 mx-[29px]">
+              
+              <Button variant="cta" size="lg" className="text-2xl px-8 py-4 rounded-full shadow-2xl w-full md:w-auto">
                 🧁 Garantir com preço promocional!
               </Button>
             </div>
