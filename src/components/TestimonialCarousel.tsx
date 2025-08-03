@@ -48,7 +48,7 @@ const TestimonialCarousel = () => {
     setIsAutoPlaying(false);
     setCurrentIndex(index);
   };
-  return <div className="relative w-full max-w-2xl mx-0 px-[54px] py-[3px] my-0">
+  return <div className="relative w-full max-w-2xl mx-0 my-0 px-[17px] py-0">
       {/* Main carousel display */}
       <div className="relative h-96 md:h-[500px] overflow-hidden rounded-2xl shadow-2xl">
         <div className="flex transition-transform duration-500 ease-in-out h-full" style={{

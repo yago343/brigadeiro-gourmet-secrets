@@ -202,11 +202,9 @@ const LandingPage = () => {
                     E-book O Brigadeiro Perfeito
                   </h3>
                   <div className="mb-6">
-                    <p className="text-xl text-muted-foreground line-through mb-2">De: R$97,00</p>
-                    <p className="text-5xl md:text-7xl font-bold text-success-sweet mb-2">R$37,00</p>
-                    <Badge className="bg-gold-elegant text-chocolate-rich font-bold text-lg px-4 py-2">
-                      ECONOMIA DE R$60,00
-                    </Badge>
+                    <p className="text-xl text-muted-foreground line-through mb-2">De: R$47,00</p>
+                    <p className="text-5xl md:text-7xl font-bold text-success-sweet mb-2">R$19,00</p>
+                    <Badge className="bg-gold-elegant text-chocolate-rich font-bold text-lg px-4 py-2">ECONOMIA DE R$28,00</Badge>
                   </div>
                   
                   <div className="space-y-3 mb-6 text-left">
@@ -226,7 +224,7 @@ const LandingPage = () => {
                 </div>
               </div>
               
-              <Button variant="cta" size="lg" className="text-xl rounded-full shadow-2xl px-8 py-4">
+              <Button variant="cta" size="lg" className="text-xl rounded-full shadow-2xl px-0 py-0">
                 🧁 Garantir com preço promocional!
               </Button>
             </div>
