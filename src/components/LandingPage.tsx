@@ -121,9 +121,7 @@ const LandingPage = () => {
           </div>
 
           <div className="text-center">
-            <Button variant="gold" size="lg" className="text-lg px-10 py-4 rounded-full">
-              📘 Quero aproveitar o desconto!
-            </Button>
+            
           </div>
         </div>
       </section>
@@ -177,7 +175,7 @@ const LandingPage = () => {
       </section>
 
       {/* [A] AÇÃO - Oferta, Garantia e Conversão */}
-      <section className="bg-gradient-to-br from-card to-background px-0 mx-0 my-0 py-[79px]">
+      <section className="bg-gradient-to-br from-card to-background px-0 mx-0 my-0 py-0">
         <div className="container mx-auto px-0">
           
           {/* Oferta Limitada */}
@@ -201,7 +199,7 @@ const LandingPage = () => {
                   <h3 className="font-display text-2xl md:text-3xl font-bold mb-4 text-gold-elegant">
                     E-book O Brigadeiro Perfeito
                   </h3>
-                  <div className="mb-6">
+                  <div className="mb-6 px-[5px]">
                     <p className="text-xl text-muted-foreground line-through mb-2">De: R$47,00</p>
                     <p className="text-5xl md:text-7xl font-bold text-success-sweet mb-2">R$19,00</p>
                     <Badge className="bg-gold-elegant text-chocolate-rich font-bold text-lg px-4 py-2">ECONOMIA DE R$28,00</Badge>
@@ -224,7 +222,7 @@ const LandingPage = () => {
                 </div>
               </div>
               
-              <Button variant="cta" size="lg" className="text-xl rounded-full shadow-2xl px-0 py-0">
+              <Button variant="cta" size="lg" className="text-xl rounded-full shadow-2xl py-[6px] px-0 mx-0">
                 🧁 Garantir com preço promocional!
               </Button>
             </div>
