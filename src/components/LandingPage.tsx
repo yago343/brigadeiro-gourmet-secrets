@@ -294,7 +294,7 @@ const LandingPage = () => {
             <p className="text-xl mb-6 max-w-2xl mx-auto">
               "Fácil de entender, né? Se você não quer perder o valor promocional, é só clicar no botão abaixo!"
             </p>
-            <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl py-0 px-0">
+            <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl my-0 py-0 px-0 mx-0">
               🎯 Quero aproveitar o desconto agora!
             </Button>
             
