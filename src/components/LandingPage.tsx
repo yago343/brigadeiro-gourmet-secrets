@@ -317,8 +317,8 @@ const LandingPage = () => {
           </div>
           <div className="flex justify-center gap-6 mb-6">
             <Badge className="bg-success-sweet text-white">🔒 Compra Segura</Badge>
-            <Badge className="bg-gold-elegant text-chocolate-rich">💳 Pagamento via Yampi</Badge>
-            <Badge className="bg-caramel text-white">📥 Entrega digital imediata</Badge>
+            
+            
           </div>
         </div>
       </footer>
