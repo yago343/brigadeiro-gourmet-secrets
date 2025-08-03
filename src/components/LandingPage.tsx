@@ -10,6 +10,7 @@ import chefMatheus from "@/assets/chef-matheus.jpg";
 import ImageCarousel from "@/components/ImageCarousel";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import testimonial1 from "@/assets/testimonial-1.jpg";
+import whatsappIntroClass from "@/assets/whatsapp-intro-class.jpg";
 const LandingPage = () => {
   return <div className="min-h-screen bg-background text-foreground">
       
@@ -138,6 +139,9 @@ const LandingPage = () => {
             <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-gold-elegant">
               Além do e-book, você ganha acesso a uma aula introdutória gratuita
             </h2>
+            <div className="mb-6">
+              <img src={whatsappIntroClass} alt="Acesso à aula introdutória gratuita" className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg" />
+            </div>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               mostrando passo a passo como fazer o brigadeiro perfeito.
             </p>
