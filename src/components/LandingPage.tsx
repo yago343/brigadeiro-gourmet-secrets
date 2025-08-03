@@ -74,8 +74,8 @@ const LandingPage = () => {
 
           {/* Simulação de depoimentos WhatsApp */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {["Finalmente consegui fazer brigadeiros que derretem na boca! Já vendi R$ 800 só no primeiro mês 😍", "As receitas são perfeitas! Meus clientes sempre pedem mais. Obrigada Matheus! 🙏", "Nunca mais errei o ponto! O e-book salvou meu negócio de doces 💖"].map((text, index) => <Card key={index} className="bg-card/90 border-l-4 border-l-success-sweet p-6 shadow-lg backdrop-blur-sm">
-                <CardContent className="p-0">
+            {["Finalmente consegui fazer brigadeiros que derretem na boca! Já vendi R$ 800 só no primeiro mês 😍", "As receitas são perfeitas! Meus clientes sempre pedem mais. Obrigada Matheus! 🙏", "Nunca mais errei o ponto! O e-book salvou meu negócio de doces 💖"].map((text, index) => <Card key={index} className="bg-card/90 border-l-4 border-l-success-sweet p-6 shadow-lg backdrop-blur-sm px-[21px] py-0">
+                <CardContent className="p-0 py-[3px]">
                   <p className="text-foreground mb-3">{text}</p>
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <div className="w-8 h-8 bg-success-sweet rounded-full flex items-center justify-center text-white font-bold">
@@ -88,7 +88,7 @@ const LandingPage = () => {
           </div>
 
           <div className="text-center mb-12">
-            <h3 className="font-display text-2xl md:text-4xl font-bold mb-8 text-gold-elegant">
+            <h3 className="font-display text-2xl md:text-4xl font-bold mb-8 text-gold-elegant py-0 my-0 mx-[24px] px-[26px]">
               💬 Esse e-book é pra você que quer:
             </h3>
           </div>
