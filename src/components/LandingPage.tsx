@@ -8,6 +8,8 @@ import ebookMockup from "@/assets/ebook-mockup.jpg";
 import specialFlavors from "@/assets/special-flavors.jpg";
 import chefMatheus from "@/assets/chef-matheus.jpg";
 import ImageCarousel from "@/components/ImageCarousel";
+import TestimonialCarousel from "@/components/TestimonialCarousel";
+import testimonial1 from "@/assets/testimonial-1.jpg";
 const LandingPage = () => {
   return <div className="min-h-screen bg-background text-foreground">
       
@@ -64,6 +66,9 @@ const LandingPage = () => {
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6 text-gold-elegant">
               📱 Veja o que as alunas estão falando
             </h2>
+            <div className="mb-12">
+              <TestimonialCarousel />
+            </div>
           </div>
 
           {/* Simulação de depoimentos WhatsApp */}
@@ -290,6 +295,11 @@ const LandingPage = () => {
             <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl py-0 px-0">
               🎯 Quero aproveitar o desconto agora!
             </Button>
+            
+            {/* Primeira imagem de depoimento destacada */}
+            <div className="mt-12 max-w-md mx-auto">
+              <img src={testimonial1} alt="Depoimento em destaque" className="w-full rounded-2xl shadow-lg" />
+            </div>
           </div>
         </div>
       </section>
