@@ -222,7 +222,7 @@ const LandingPage = () => {
                 </div>
               </div>
               
-              <Button variant="cta" size="lg" className="text-xl rounded-full shadow-2xl py-[6px] px-0 mx-0">
+              <Button variant="cta" size="lg" className="text-xl rounded-full shadow-2xl py-[6px] px-0 mx-0 animate-pulse hover:animate-none hover-scale">
                 <a href="https://go.tribopay.com.br/1ce479vny7" target="_blank" rel="noopener noreferrer" className="block w-full">🧁 Garantir com preço promocional!</a>
               </Button>
             </div>
@@ -294,7 +294,7 @@ const LandingPage = () => {
             <p className="text-xl mb-6 max-w-2xl mx-auto">
               "Fácil de entender, né? Se você não quer perder o valor promocional, é só clicar no botão abaixo!"
             </p>
-            <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl my-0 py-0 px-0 mx-0">
+            <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl my-0 py-0 px-0 mx-0 animate-bounce hover:animate-none hover-scale">
               <a href="https://go.tribopay.com.br/1ce479vny7" target="_blank" rel="noopener noreferrer" className="block w-full">🎯 Quero aproveitar o desconto agora!</a>
             </Button>
             
