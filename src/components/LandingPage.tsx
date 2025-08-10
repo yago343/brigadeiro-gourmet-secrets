@@ -232,7 +232,7 @@ const LandingPage = () => {
           <div className="mb-16">
             <Card className="max-w-3xl mx-auto text-center p-8 bg-card/80 backdrop-blur-sm border-gold-elegant/20">
               <CardContent className="p-0">
-                <Shield className="w-16 h-16 text-success-sweet mx-auto mb-4" />
+                <img src="/lovable-uploads/db929913-366a-4c79-9144-0408b4fae89e.png" alt="Garantia de 7 dias" className="w-24 h-24 mx-auto mb-4" />
                 <h3 className="font-display text-2xl font-bold mb-4 text-gold-elegant">
                   🔒 Garantia e confiança
                 </h3>
