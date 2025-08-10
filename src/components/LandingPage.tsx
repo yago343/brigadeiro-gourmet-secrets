@@ -90,7 +90,7 @@ const LandingPage = () => {
 
           <div className="text-center mb-12">
             <h3 className="font-display text-2xl md:text-4xl font-bold mb-8 text-gold-elegant py-0 my-0 mx-[24px] px-[26px]">
-              💬 Esse e-book é pra você que quer:
+              💬 Essa Receita do brigadeiro perfeito é pra você que quer:
             </h3>
           </div>
 
@@ -136,7 +136,7 @@ const LandingPage = () => {
               🎓 BÔNUS ESPECIAL
             </Badge>
             <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-gold-elegant">
-              Além do e-book, você ganha acesso a uma aula introdutória gratuita
+              Além da Receita do brigadeiro perfeito, você ganha acesso a uma aula introdutória gratuita
             </h2>
             <div className="mb-6">
               <img src={whatsappIntroClass} alt="Acesso à aula introdutória gratuita" className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg" />
@@ -187,7 +187,7 @@ const LandingPage = () => {
                 {/* Capa do produto - mais destacada */}
                 <div className="flex-shrink-0 mb-8 md:mb-0">
                   <div className="relative">
-                    <img src={ebookMockup} alt="E-book O Brigadeiro Perfeito" className="w-64 md:w-80 mx-auto rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300" />
+                    <img src={ebookMockup} alt="Receita do brigadeiro perfeito" className="w-64 md:w-80 mx-auto rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300" />
                     <div className="absolute -top-4 -right-4 bg-red-500 text-white px-3 py-1 rounded-full font-bold animate-bounce">
                       60% OFF
                     </div>
@@ -197,7 +197,7 @@ const LandingPage = () => {
                 {/* Informações de preço */}
                 <div className="text-center md:text-left">
                   <h3 className="font-display text-2xl md:text-3xl font-bold mb-4 text-gold-elegant">
-                    E-book O Brigadeiro Perfeito
+                    Receita do brigadeiro perfeito
                   </h3>
                   <div className="mb-6 px-[5px]">
                     <p className="text-xl text-muted-foreground line-through mb-2">De: R$47,00</p>
@@ -223,7 +223,7 @@ const LandingPage = () => {
               </div>
               
               <Button variant="cta" size="lg" className="text-xl rounded-full shadow-2xl py-[6px] px-0 mx-0">
-                🧁 Garantir com preço promocional!
+                <a href="https://go.tribopay.com.br/1ce479vny7" target="_blank" rel="noopener noreferrer" className="block w-full">🧁 Garantir com preço promocional!</a>
               </Button>
             </div>
           </div>
@@ -238,7 +238,7 @@ const LandingPage = () => {
                 </h3>
                 <p className="text-lg">
                   Seu investimento está 100% protegido por 7 dias, conforme a lei. 
-                  Se o e-book não for o que prometemos, peça seu reembolso e será feito sem complicações.
+                  Se a Receita do brigadeiro perfeito não for o que prometemos, peça seu reembolso e será feito sem complicações.
                 </p>
               </CardContent>
             </Card>
@@ -278,7 +278,7 @@ const LandingPage = () => {
               ❓ Dúvidas Frequentes
             </h3>
             <div className="max-w-3xl mx-auto space-y-4">
-              {["Por quanto tempo terei acesso ao e-book?", "A aula foi gravada?", "Como tirar minhas dúvidas?", "Posso dar de presente?", "É confiável?", "Como acessar o conteúdo?", "Tem atualizações grátis?", "Posso pagar com Pix ou cartão?"].map((question, index) => <Card key={index} className="p-4 hover:bg-card/80 transition-colors cursor-pointer">
+              {["Por quanto tempo terei acesso à Receita do brigadeiro perfeito?", "A aula foi gravada?", "Como tirar minhas dúvidas?", "Posso dar de presente?", "É confiável?", "Como acessar o conteúdo?", "Tem atualizações grátis?", "Posso pagar com Pix ou cartão?"].map((question, index) => <Card key={index} className="p-4 hover:bg-card/80 transition-colors cursor-pointer">
                   <CardContent className="p-0">
                     <div className="flex items-center justify-between">
                       <span className="font-medium">{question}</span>
@@ -295,7 +295,7 @@ const LandingPage = () => {
               "Fácil de entender, né? Se você não quer perder o valor promocional, é só clicar no botão abaixo!"
             </p>
             <Button variant="cta" size="lg" className="text-2xl rounded-full shadow-2xl my-0 py-0 px-0 mx-0">
-              🎯 Quero aproveitar o desconto agora!
+              <a href="https://go.tribopay.com.br/1ce479vny7" target="_blank" rel="noopener noreferrer" className="block w-full">🎯 Quero aproveitar o desconto agora!</a>
             </Button>
             
             {/* Primeira imagem de depoimento destacada */}
