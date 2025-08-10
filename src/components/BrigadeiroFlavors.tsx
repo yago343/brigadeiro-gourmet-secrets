@@ -66,11 +66,6 @@ const BrigadeiroFlavors = () => {
             </div>
           </Card>)}
       </div>
-      <div className="text-center mt-8">
-        <Button variant="cta" size="lg" className="text-lg rounded-full">
-          <a href="https://go.tribopay.com.br/1ce479vny7" target="_blank" rel="noopener noreferrer" className="block w-full">🍬 Quero garantir meu acesso!</a>
-        </Button>
-      </div>
     </div>;
 };
 export default BrigadeiroFlavors;
