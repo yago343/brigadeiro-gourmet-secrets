@@ -200,9 +200,9 @@ const LandingPage = () => {
                     Receita do brigadeiro perfeito
                   </h3>
                   <div className="mb-6 px-[5px]">
-                    <p className="text-xl text-muted-foreground line-through mb-2">De: R$47,00</p>
-                    <p className="text-5xl md:text-7xl font-bold text-success-sweet mb-2">R$19,00</p>
-                    <Badge className="bg-gold-elegant text-chocolate-rich font-bold text-lg px-4 py-2">ECONOMIA DE R$28,00</Badge>
+                    <p className="text-xl text-muted-foreground line-through mb-2">De: R$147,00</p>
+                    <p className="text-5xl md:text-7xl font-bold text-success-sweet mb-4">R$29,90</p>
+                    <Badge className="bg-gold-elegant text-chocolate-rich font-bold text-lg px-4 py-2">ECONOMIA DE R$117,10</Badge>
                   </div>
                   
                   <div className="space-y-3 mb-6 text-left">
