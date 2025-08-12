@@ -62,6 +62,11 @@ const ImageCarousel = () => {
                 src={image.src}
                 alt={image.alt}
                 className="w-full h-[400px] md:h-[500px] object-cover"
+                loading={index === 0 ? "eager" : "lazy"}
+                decoding="async"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
               />
             </div>
           ))}

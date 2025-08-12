@@ -10,6 +10,7 @@ import chefMatheus from "@/assets/chef-matheus.jpg";
 import ImageCarousel from "@/components/ImageCarousel";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import BrigadeiroFlavors from "@/components/BrigadeiroFlavors";
+import OptimizedImage from "@/components/OptimizedImage";
 import testimonial1 from "@/assets/testimonial-1.jpg";
 import whatsappIntroClass from "@/assets/whatsapp-intro-class.jpg";
 const LandingPage = () => {
@@ -139,12 +140,11 @@ const LandingPage = () => {
               Além da Receita do brigadeiro perfeito, você ganha acesso a uma aula introdutória gratuita
             </h2>
             <div className="mb-6">
-              <img 
+              <OptimizedImage 
                 src={whatsappIntroClass} 
                 alt="Acesso à aula introdutória gratuita" 
                 className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg" 
                 loading="lazy"
-                decoding="async"
               />
             </div>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -162,12 +162,11 @@ const LandingPage = () => {
 
           {/* Galeria Visual - Imagem estatica */}
           <div className="mb-16">
-            <img 
+            <OptimizedImage 
               src={designImage} 
               alt="Galeria de Brigadeiros Gourmet" 
               className="w-full rounded-3xl shadow-2xl" 
               loading="lazy"
-              decoding="async"
             />
           </div>
 
@@ -199,12 +198,11 @@ const LandingPage = () => {
                 {/* Capa do produto - mais destacada */}
                 <div className="flex-shrink-0 mb-8 md:mb-0">
                   <div className="relative">
-                    <img 
+                    <OptimizedImage 
                       src={ebookMockup} 
                       alt="Receita do brigadeiro perfeito" 
                       className="w-64 md:w-80 mx-auto rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300" 
-                      loading="lazy"
-                      decoding="async"
+                      priority={true}
                     />
                     <div className="absolute -top-4 -right-4 bg-red-500 text-white px-3 py-1 rounded-full font-bold animate-bounce">
                       60% OFF
@@ -250,12 +248,11 @@ const LandingPage = () => {
           <div className="mb-16">
             <Card className="max-w-3xl mx-auto text-center p-8 bg-card/80 backdrop-blur-sm border-gold-elegant/20">
               <CardContent className="p-0">
-                <img 
+                <OptimizedImage 
                   src="/lovable-uploads/db929913-366a-4c79-9144-0408b4fae89e.png" 
                   alt="Garantia de 7 dias" 
                   className="w-24 h-24 mx-auto mb-4" 
                   loading="lazy"
-                  decoding="async"
                 />
                 <h3 className="font-display text-2xl font-bold mb-4 text-gold-elegant">
                   🔒 Garantia e confiança
@@ -274,12 +271,11 @@ const LandingPage = () => {
               <CardContent className="p-0">
                 <div className="md:flex items-center gap-8">
                   <div className="flex-shrink-0 mb-6 md:mb-0">
-                    <img 
+                    <OptimizedImage 
                       src={chefMatheus} 
                       alt="Chef Matheus" 
                       className="w-48 h-48 object-cover rounded-full mx-auto shadow-2xl" 
                       loading="lazy"
-                      decoding="async"
                     />
                   </div>
                   <div className="text-center md:text-left">
@@ -330,12 +326,11 @@ const LandingPage = () => {
             
             {/* Primeira imagem de depoimento destacada */}
             <div className="mt-12 max-w-md mx-auto">
-              <img 
+              <OptimizedImage 
                 src={testimonial1} 
                 alt="Depoimento em destaque" 
                 className="w-full rounded-2xl shadow-lg" 
                 loading="lazy"
-                decoding="async"
               />
             </div>
           </div>

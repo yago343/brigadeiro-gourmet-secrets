@@ -62,7 +62,16 @@ const BrigadeiroFlavors = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
         {flavors.map((flavor, index) => <Card key={index} className="overflow-hidden hover:scale-105 transition-transform duration-300">
             <div className="aspect-square relative">
-              <img src={flavor.image} alt={`Brigadeiro ${flavor.name}`} className="w-full h-full object-cover" />
+              <img 
+                src={flavor.image} 
+                alt={`Brigadeiro ${flavor.name}`} 
+                className="w-full h-full object-cover" 
+                loading="lazy"
+                decoding="async"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
+              />
             </div>
           </Card>)}
       </div>

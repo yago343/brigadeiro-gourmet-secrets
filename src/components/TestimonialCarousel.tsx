@@ -55,7 +55,16 @@ const TestimonialCarousel = () => {
         transform: `translateX(-${currentIndex * 100}%)`
       }}>
           {testimonials.map((testimonial, index) => <div key={index} className="w-full h-full flex-shrink-0">
-              <img src={testimonial.src} alt={testimonial.alt} className="w-full h-full object-contain bg-card" />
+              <img 
+                src={testimonial.src} 
+                alt={testimonial.alt} 
+                className="w-full h-full object-contain bg-card" 
+                loading={index === 0 ? "eager" : "lazy"}
+                decoding="async"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
+              />
             </div>)}
         </div>
 
