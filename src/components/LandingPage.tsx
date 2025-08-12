@@ -76,7 +76,7 @@ const LandingPage = () => {
 
           {/* Simulação de depoimentos WhatsApp */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {["Finalmente consegui fazer brigadeiros que derretem na boca! Já vendi R$ 800 só no primeiro mês 😍", "As receitas são perfeitas! Meus clientes sempre pedem mais. Obrigada Matheus! 🙏", "Nunca mais errei o ponto! O e-book salvou meu negócio de doces 💖"].map((text, index) => <Card key={index} className="bg-card/90 border-l-4 border-l-success-sweet p-6 shadow-lg backdrop-blur-sm px-[21px] py-0">
+            {["Finalmente consegui fazer brigadeiros que derretem na boca! Já vendi R$ 800 só no primeiro mês 😍", "As receitas são perfeitas! Meus clientes sempre pedem mais. Obrigada Gabriel! 🙏", "Nunca mais errei o ponto! O e-book salvou meu negócio de doces 💖"].map((text, index) => <Card key={index} className="bg-card/90 border-l-4 border-l-success-sweet p-6 shadow-lg backdrop-blur-sm px-[21px] py-0">
                 <CardContent className="p-0 py-[3px]">
                   <p className="text-foreground mb-3">{text}</p>
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -273,7 +273,7 @@ const LandingPage = () => {
                   <div className="flex-shrink-0 mb-6 md:mb-0">
                     <OptimizedImage 
                       src={chefMatheus} 
-                      alt="Chef Matheus" 
+                      alt="Gabriel Azatah" 
                       className="w-48 h-48 object-cover rounded-full mx-auto shadow-2xl" 
                       loading="lazy"
                     />
@@ -283,7 +283,7 @@ const LandingPage = () => {
                       👨‍🍳 SOBRE O CRIADOR
                     </Badge>
                     <h3 className="font-display text-2xl font-bold mb-4 text-gold-elegant">
-                      Muito prazer, eu sou o Matheus
+                      Muito prazer, eu sou o Gabriel Azatah
                     </h3>
                     <p className="text-lg mb-4">
                       Caiçara, 23 anos, apaixonado por confeitaria. Criei esse material para ajudar 
@@ -340,7 +340,7 @@ const LandingPage = () => {
       {/* Rodapé */}
       <footer className="py-12 bg-chocolate-rich text-center">
         <div className="container mx-auto px-4">
-          <p className="text-lg mb-4">© 2025 Matheus – Todos os direitos reservados</p>
+          <p className="text-lg mb-4">© 2025 Gabriel Azatah – Todos os direitos reservados</p>
           <div className="flex justify-center gap-6 mb-6 text-sm">
             <a href="#" className="hover:text-gold-elegant transition-colors">Política de Privacidade</a>
             <a href="#" className="hover:text-gold-elegant transition-colors">Termos de Uso</a>
