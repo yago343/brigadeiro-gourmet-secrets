@@ -200,7 +200,7 @@ const LandingPage = () => {
                 <div className="flex-shrink-0 mb-8 md:mb-0">
                   <div className="relative">
                     <OptimizedImage 
-                      src={ebookMockup} 
+                      src="/lovable-uploads/4e69aead-b318-4ccc-9419-2aa6cbc8454b.png" 
                       alt="Receita do Brigadeiro Lucrativo" 
                       className="w-64 md:w-80 mx-auto rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300" 
                       priority={true}
