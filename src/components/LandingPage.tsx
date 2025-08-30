@@ -149,7 +149,7 @@ const LandingPage = () => {
               />
             </div>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              mostrando passo a passo como fazer o brigadeiro perfeito.
+              mostrando passo a passo como fazer o brigadeiro lucrativo.
             </p>
           </div>
 
@@ -338,7 +338,7 @@ const LandingPage = () => {
                     Posso dar de presente?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Claro! É um presente perfeito para quem quer aprender a fazer brigadeiros incríveis e lucrar com isso.
+                    Claro! É um presente lucrativo para quem quer aprender a fazer brigadeiros incríveis e lucrar com isso.
                   </AccordionContent>
                 </AccordionItem>
 
