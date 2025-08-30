@@ -27,7 +27,7 @@ const LandingPage = () => {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <Badge className="mb-6 bg-gold-elegant text-chocolate-rich font-semibold px-4 py-2 text-sm">
-              ✨ LANÇAMENTO ESPECIAL - 60% OFF
+              ✨ LANÇAMENTO ESPECIAL - 90% OFF
             </Badge>
             
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-cream-warm to-gold-elegant bg-clip-text text-transparent leading-tight">
@@ -206,7 +206,7 @@ const LandingPage = () => {
                       priority={true}
                     />
                     <div className="absolute -top-4 -right-4 bg-red-500 text-white px-3 py-1 rounded-full font-bold animate-bounce">
-                      60% OFF
+                      90% OFF
                     </div>
                   </div>
                 </div>
@@ -374,7 +374,7 @@ const LandingPage = () => {
                     Posso pagar com Pix ou cartão?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Sim! Aceitamos pagamento via Pix (com desconto adicional) e cartão de crédito em até 12x sem juros.
+                    Sim! Aceitamos pagamento via Pix (com 5% de desconto adicional) e cartão de crédito em até 12x sem juros.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
