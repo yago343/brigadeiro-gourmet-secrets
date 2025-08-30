@@ -240,7 +240,7 @@ const LandingPage = () => {
               </div>
               
               <Button variant="cta" size="lg" className="text-lg rounded-full shadow-2xl py-3 px-12 w-full max-w-md mx-auto cta-pulse hover:animate-none hover-scale">
-                <a href="https://go.tribopay.com.br/1ce479vny7" target="_blank" rel="noopener noreferrer" className="block w-full">🧁 Garantir com preço promocional!</a>
+                <a href="https://pay.cakto.com.br/uzojr9p_549099" target="_blank" rel="noopener noreferrer" className="block w-full">🧁 Garantir com preço promocional!</a>
               </Button>
             </div>
           </div>
@@ -387,7 +387,7 @@ const LandingPage = () => {
               "Fácil de entender, né? Se você não quer perder o valor promocional, é só clicar no botão abaixo!"
             </p>
             <Button variant="cta" size="lg" className="text-lg rounded-full shadow-2xl py-3 px-12 w-full max-w-md mx-auto cta-bounce hover:animate-none hover-scale">
-              <a href="https://go.tribopay.com.br/1ce479vny7" target="_blank" rel="noopener noreferrer" className="block w-full">🎯 Quero aproveitar o desconto agora!</a>
+              <a href="https://pay.cakto.com.br/uzojr9p_549099" target="_blank" rel="noopener noreferrer" className="block w-full">🎯 Quero aproveitar o desconto agora!</a>
             </Button>
             
             {/* Primeira imagem de depoimento destacada */}
