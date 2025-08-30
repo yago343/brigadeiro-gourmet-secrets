@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Check, Star, Shield, Clock, Award, ChefHat, Heart, Sparkles } from "lucide-react";
 import designImage from "@/assets/design-sem-nome-1.png";
 import ebookMockup from "@/assets/ebook-mockup.jpg";
@@ -91,7 +92,7 @@ const LandingPage = () => {
 
           <div className="text-center mb-12">
             <h3 className="font-display text-2xl md:text-4xl font-bold mb-8 text-gold-elegant py-0 my-0 mx-[24px] px-[26px]">
-              💬 Essa Receita do brigadeiro perfeito é pra você que quer:
+              💬 Essa Receita do Brigadeiro Lucrativo é pra você que quer:
             </h3>
           </div>
 
@@ -137,7 +138,7 @@ const LandingPage = () => {
               🎓 BÔNUS ESPECIAL
             </Badge>
             <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-gold-elegant">
-              Além da Receita do brigadeiro perfeito, você ganha acesso a uma aula introdutória gratuita
+              Além da Receita do Brigadeiro Lucrativo, você ganha acesso a uma aula introdutória gratuita
             </h2>
             <div className="mb-6">
               <OptimizedImage 
@@ -200,7 +201,7 @@ const LandingPage = () => {
                   <div className="relative">
                     <OptimizedImage 
                       src={ebookMockup} 
-                      alt="Receita do brigadeiro perfeito" 
+                      alt="Receita do Brigadeiro Lucrativo" 
                       className="w-64 md:w-80 mx-auto rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300" 
                       priority={true}
                     />
@@ -213,7 +214,7 @@ const LandingPage = () => {
                 {/* Informações de preço */}
                 <div className="text-center md:text-left">
                   <h3 className="font-display text-2xl md:text-3xl font-bold mb-4 text-gold-elegant">
-                    Receita do brigadeiro perfeito
+                     Receita do Brigadeiro Lucrativo
                   </h3>
                   <div className="mb-6 px-[5px]">
                     <p className="text-xl text-muted-foreground line-through mb-2">De: R$147,00</p>
@@ -259,7 +260,7 @@ const LandingPage = () => {
                 </h3>
                 <p className="text-lg">
                   Seu investimento está 100% protegido por 7 dias, conforme a lei. 
-                  Se a Receita do brigadeiro perfeito não for o que prometemos, peça seu reembolso e será feito sem complicações.
+                  Se a Receita do Brigadeiro Lucrativo não for o que prometemos, peça seu reembolso e será feito sem complicações.
                 </p>
               </CardContent>
             </Card>
@@ -303,15 +304,80 @@ const LandingPage = () => {
             <h3 className="font-display text-2xl md:text-3xl font-bold text-center mb-12 text-gold-elegant">
               ❓ Dúvidas Frequentes
             </h3>
-            <div className="max-w-3xl mx-auto space-y-4">
-              {["Por quanto tempo terei acesso à Receita do brigadeiro perfeito?", "A aula foi gravada?", "Como tirar minhas dúvidas?", "Posso dar de presente?", "É confiável?", "Como acessar o conteúdo?", "Tem atualizações grátis?", "Posso pagar com Pix ou cartão?"].map((question, index) => <Card key={index} className="p-4 hover:bg-card/80 transition-colors cursor-pointer">
-                  <CardContent className="p-0">
-                    <div className="flex items-center justify-between">
-                      <span className="font-medium">{question}</span>
-                      <span className="text-gold-elegant">+</span>
-                    </div>
-                  </CardContent>
-                </Card>)}
+            <div className="max-w-3xl mx-auto">
+              <Accordion type="single" collapsible className="space-y-4">
+                <AccordionItem value="item-1">
+                  <AccordionTrigger className="text-left font-medium hover:no-underline">
+                    Por quanto tempo terei acesso à Receita do Brigadeiro Lucrativo?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Você terá acesso vitalício ao conteúdo. Uma vez adquirido, é seu para sempre!
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-2">
+                  <AccordionTrigger className="text-left font-medium hover:no-underline">
+                    A aula foi gravada?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Sim! Todas as aulas são gravadas, então você pode assistir quantas vezes quiser, no seu próprio ritmo.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-3">
+                  <AccordionTrigger className="text-left font-medium hover:no-underline">
+                    Como tirar minhas dúvidas?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Você pode entrar em contato conosco através do WhatsApp ou email. Estamos sempre prontos para ajudar!
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-4">
+                  <AccordionTrigger className="text-left font-medium hover:no-underline">
+                    Posso dar de presente?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Claro! É um presente perfeito para quem quer aprender a fazer brigadeiros incríveis e lucrar com isso.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-5">
+                  <AccordionTrigger className="text-left font-medium hover:no-underline">
+                    É confiável?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Sim! Temos mais de 7.000 alunas satisfeitas e oferecemos garantia de 7 dias. Sua compra é 100% segura.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-6">
+                  <AccordionTrigger className="text-left font-medium hover:no-underline">
+                    Como acessar o conteúdo?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Após a compra, você receberá um email com o link de acesso imediato ao material completo.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-7">
+                  <AccordionTrigger className="text-left font-medium hover:no-underline">
+                    Tem atualizações grátis?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Sim! Todas as futuras atualizações e novas receitas serão incluídas gratuitamente no seu acesso.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-8">
+                  <AccordionTrigger className="text-left font-medium hover:no-underline">
+                    Posso pagar com Pix ou cartão?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Sim! Aceitamos pagamento via Pix (com desconto adicional) e cartão de crédito em até 12x sem juros.
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
             </div>
           </div>
 
